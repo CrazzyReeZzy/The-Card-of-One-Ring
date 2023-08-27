@@ -157,14 +157,41 @@ main{
     background-repeat: no-repeat;
     background-size: cover;}
 .how_to_play_content{
+    width: 60%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
-.how_to_play_content_text{}
+.how_to_play_content_text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.how_to_play_content_text > h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Intro ;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: start;
+}
+.how_to_play_content_text > p{
+    color: #FFF;
+    font-family: Russo One;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .how_to_play_content_image{
-    width: 1000px;
-    height: 100vh;
+    width: 600px;
+    height:700px;
     background-image: url("../img/Gandalf.png");
     background-repeat: no-repeat;
     background-size: cover;
