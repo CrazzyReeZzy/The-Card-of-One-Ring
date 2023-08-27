@@ -1,3 +1,4 @@
+body{background: #000;}
 main{
     height: 100vh;
     width: 100%;
@@ -46,7 +47,6 @@ main{
 }
 
 .adventures{
-    height: 100vh;
     width: 100%;
     background:#000;
     filter: drop-shadow(20px 20px 100px #000);
@@ -54,5 +54,94 @@ main{
     padding: 0px 0px 0px 0px;
 }
 .adventures_title{
-    color: #FFF;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.adventures_title > h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Intro ;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; /* 93.333% */
+    margin: 50px 0px 0px 0px;
+}
+.adventures_title > p{
+    color: #FFF;
+    text-align: center;
+    font-family: Russo One;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 250px;
+}
+.adventures_image{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+.adventures_image_left{
+    grid-column: 1;
+}
+.adventures_image_right{
+    grid-column: 2;
+    position: relative;
+}
+.unforgettable_adventures_1{
+    width: 435px;
+    height: 659px;
+    background-image: url("../img/unforgettable_adventures_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.unforgettable_adventures_2{
+    width: 1065px;
+    height: 587px;
+    background-image: url("../img/unforgettable_adventures_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.unforgettable_adventures_3{
+    position: absolute;
+    top: -200px;
+    right:-25px;
+    width: 1065px;
+    height: 587px;
+    background-image: url("../img/unforgettable_adventures_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+/*ДОПОЛНЕНИЯ*/
+.additions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.additions_title{
+    color: #FFF;
+    text-align: center;
+    font-family: Russo One;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; /* 93.333% */
+}
+.additions_image{
+    width: 100vh;
+    height: 100%;
+    background-image: url("../img/additions_image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*КАК ИГРАТЬ*/
