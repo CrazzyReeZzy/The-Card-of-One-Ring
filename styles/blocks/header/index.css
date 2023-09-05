@@ -1,0 +1,13 @@
+/* header-page */
+.header__navigation{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.header__navigation > li > a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.header__avatar > button{
+    display: none;
+}
