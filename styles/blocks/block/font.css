@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Intro";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Intro"),
+         /* Если не получилось, загрузит woff2 */
+         url("../../../font/Intro.otf") format("otf"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         /* Если браузер не поддерживает woff2, загрузит woff url("/fonts/roboto.woff") format("woff");*/
+  }
+
+  @font-face {
+    font-family: "Tolkiencyr";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Tolkiencyr"),
+         /* Если не получилось, загрузит woff2 */
+         url("../../../font/tolkiencyr.ttf") format("ttf"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         /* Если браузер не поддерживает woff2, загрузит woff url("/fonts/roboto.woff") format("woff");*/
+  }
+
+  @font-face {
+    font-family: "RussoOne-Regular";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("RussoOne-Regular"),
+         /* Если не получилось, загрузит woff2 */
+         url("../../../font/RussoOne-Regular.ttf") format("ttf"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         /* Если браузер не поддерживает woff2, загрузит woff url("/fonts/roboto.woff") format("woff");*/
+  }

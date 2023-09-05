@@ -1,91 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru" class="page">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Card of One Ring</title>
     <!--Favicon-->
-    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="shortcut icon-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="shortcut icon-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" sizes="16x16" href="images/favicon/favicon16.png" type="image/x-icon">
+	<link rel="shortcut icon-icon" sizes="32x32" href="images/favicon/favicon32.png">
+	<link rel="shortcut icon-icon" sizes="96x96" href="images/favicon/favicon96.png">
+	<link rel="shortcut icon-icon" sizes="120x120" href="images/favicon/favicon120.png">
     <!--Styles-->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/var.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/index-media.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="/styles/index.css">
 </head>
-<body>
-    <!--Main_SECTION-->
-    <main>
-    <!--Header-->
-    <header class="header">
-        <!--LogoGame-->
-        <div class="logo">
-            <a href="#"><img src="img/logo.svg" alt="logo"></a>
-        </div>
-        <!--Menu-->
-        <menu class="menu">
-            <nav-bar class="wrap-menu">
-                <ul>
+<body class="page__body">
+    <main class="main-page">
+        <header class="header">
+            <a href="#"><img src="images/icons-svg/logo.svg" alt="Logo" width = "365px" height="183px"></a>
+            <nav>
+                <ul class="header__navigation">
                     <li><a href="#">Информация о игре</a></li>
                     <li><a href="#">Новости</a></li>
                     <li><a href="#">Карты</a></li>
                     <li><a href="#">Магазин</a></li>
                 </ul>
-            </nav-bar>
-        </menu>
-        <!--Accaunt -->
-        <div class="acc">
-            <div class="acc-img"><a href="#"><img src="img/acc.svg" alt="acc-img"></a></div>
-            <div class="acc-in"><a href="#">Войти</a></div>
-        </div>
-    </header>
-    <!--Main_TITLE-->
-    <div class="main_title">
-        <h1>ИССЛЕДУЙТЕ ГОРИЗОНТЫ СРЕДИЗЕМЬЯ ВМЕСТЕ С НАМИ</h1>
-        <button>Играть бесплатно</button>
-    </div>
+            </nav>
+            <div class="header__avatar">
+                <a href="#"><img src="images/icons-svg/acc.svg" alt="avatar"  width = "65px" height="65px"></a>
+                <button type="button">Войти</button>
+                <button type="button">Выйти</button>
+            </div>
+        </header>
     </main>
-    <!--SECTION-ADVENTURES-->
-    <section class="adventures">
-        <div class="adventures_title">
-            <h2>НЕЗАБЫВАЕМЫЕ ПРИКЛЮЧЕНИЯ</h2>
-            <p>One Ring's Cards— игра для всех! Новая для коллекционной карточной игры механика с двумя полями. Необычный формат игры двое надвое.</p>
-        </div>
-        <div class="adventures_image">
-            <div class="adventures_image_left">
-                <div class="unforgettable_adventures_1"></div>
-            </div>
-            <div class="adventures_image_right">
-                <div class="unforgettable_adventures_2"></div>
-                <div class="unforgettable_adventures_3"></div>
-            </div>
-        </div>
-    </section>
-    <section class="additions">
-        <h2 class="additions_title">Ближайшие<br>
-            Дополнения</h2>
-        <div class="additions_image"></div>
-    </section>
-    <section class="how_to_play">
-        <div class="line"></div>
-        <div class="how_to_play_content">
-            <div class="how_to_play_content_text">
-                <h2>Как играть ?</h2>
-                <p>Не терпится взять колоду и начать играть? 
-                Нет лучшего способа сделать это, чем просто загрузить The Cards One Rings и войти в игру! 
-                А если после завершения обучения у вас еще останутся вопросы об игровом процессе,
-                то на страницах этого раздела вы найдете на них ответы.</p>
-            </div>
-            <div class="how_to_play_content_image"></div>
-        </div>
-    </section>
-    <!--Footer-->
-    <footer></footer>
+    <section class="unforgettable__adventures"></section>
+    <section class="upcoming__additions"></section>
+    <section class="how_to_play"></section>
+    <section class="rules"></section>
+    <footer class="footer"></footer>
 </body>
 </html>
