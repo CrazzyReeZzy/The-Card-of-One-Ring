@@ -7,6 +7,9 @@
 @import url('colors/index.css');
 
 /* Blocks */
+@import url('blocks/main.faq/index.css');
+@import url('blocks/main.rules/index.css');
+@import url('blocks/main.how_to_play/index.css');
 @import url('blocks/main.upcoming/index.css');
 @import url('blocks/main.unforgettable/index.css');
 @import url('blocks/main.page/index.css');
