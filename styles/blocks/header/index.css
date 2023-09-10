@@ -31,6 +31,9 @@
     font-weight: 400;
     line-height: normal;
 }
+.header__navigation > li > a:hover{
+    color: #F2B566;
+}
 .header__avatar > button[name='sing_up']{
     color: #FFF;
     font-family: Orbitron;

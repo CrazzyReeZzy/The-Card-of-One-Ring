@@ -12,6 +12,12 @@
 	<link rel="shortcut icon-icon" sizes="120x120" href="images/favicon/favicon120.png">
     <!--Styles-->
     <link rel="stylesheet" href="/styles/index.css">
+    <!--Slick_slider - Settings - Main.Page_1 -->
+    <link rel="stylesheet" href="/styles/index.css">
+    <!--Script-->
+    <script type="text/javascript" src="Libraries/jquery/jquery.js"></script>
+    <script type="text/javascript" src="Libraries/slick_slider/slick.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
 </head>
 <body class="page__body">
     <main class="main-page">
@@ -40,19 +46,19 @@
         <div class="unforgettable__adventures__content">
             <img class="unforgettable__adventures__content__img" src="images/img/unforgettable_adventures_1.png">
             <div class="unforgettable__adventures__content__slaider">
-                <img src="images/img/unforgettable_adventures_2.png" alt="slaid_1">
-                <img src="images/img/unforgettable_adventures_3.png" alt="slaid_2">
-                <nav class="slaider__navigation">
+                <img src="images/img/unforgettable_adventures_2.png" alt="slaid_1" id="slaid_1">
+                <img src="images/img/unforgettable_adventures_3.png" alt="slaid_2" id="slaid_2">
+                <!--<nav class="slaider__navigation">
                     <ul>
                         <li><button name="slaider_button_1" type="button"></button></li>
                         <li><button name="slaider_button_2"type="button"></button></li>
                     </ul>
-                </nav>
+                </nav>!-->
             </div>
         </div>
     </section>
     <section class="upcoming__additions">
-        <h2>Ближайшие Дополнения</h2>
+        <h2>Ближайшие<br> Дополнения</h2>
         <img src="images/img/additions_image.png" alt="additions">
     </section>
     <section class="how_to_play">
