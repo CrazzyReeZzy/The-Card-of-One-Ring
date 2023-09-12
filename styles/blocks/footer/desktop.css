@@ -1,0 +1,108 @@
+/* Desktop */
+
+@media (width >= 1230px) {
+    .footer{
+        margin: 0px;
+        padding: 5px;
+        height: 100%;
+        background:#000;
+    }
+    .footer > h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: Intro ;
+        font-size: 75px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 70px; /* 93.333% */
+    }
+    .icons_social__content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .icon_youtube{
+        display: block;
+        width: 150px;
+        height: 150px;
+        background-image: url('../../../images/icons-social-media/youtube.png');
+        background-size: cover;
+    }
+    .icon_vk{
+        display: block;
+        width: 150px;
+        height: 150px;
+        background-image: url('../../../images/icons-social-media/vk.png');
+        background-size: cover;
+    }
+    .icon_discord{
+        display: block;
+        width: 150px;
+        height: 150px;
+        background-image: url('../../../images/icons-social-media/discord.png');
+        background-size: cover;
+    }
+    .icon_twitter{
+        display: block;
+        width: 150px;
+        height: 150px;
+        background-image: url('../../../images/icons-social-media/twitter.png');
+        background-size: cover;
+    }
+    .icon_telegram{
+        display: block;
+        width: 150px;
+        height: 150px;
+        background-image: url('../../../images/icons-social-media/telegram.png');
+        background-size: cover;
+    }
+
+    .footer__logo{
+        display: flex;
+        justify-content: center;
+    }
+    .footer__link{
+        color: #FFF;
+        text-align: center;
+        font-family: Russo One;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+    .footer__link_fist > a{
+        padding-right: 10px;
+        text-decoration: none;
+    }
+    .footer__link_two > a{
+        padding-right: 15px;
+        text-decoration: none;
+    }
+    .footer__info{
+        padding-top: 25px;
+        color: #FFF;
+        text-align: center;
+        font-family: Russo One;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .footer__{
+        padding-top: 35px;
+        padding-bottom: 50px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .footer__ > p {
+        color: #FFF;
+        text-align: center;
+        font-family: Russo One;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+}

@@ -2,14 +2,19 @@
 
 @media (width >= 1230px) {
     .faq{
-        margin: 0;
+        margin: 0px;
         padding: 5px;
-        height: 50vh;
+        height: 100%;
         background:#000;
     }
-    .faq > h2 {
+    .faq_title{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .faq_title > h2 {
+        margin: 25px 0px 15px 0px;
         color: #F2B566;
-        text-align: center;
+        text-align: left;
         font-family: Russo One;
         font-size: 75px;
         font-style: normal;
@@ -17,6 +22,69 @@
         line-height: 70px; /* 93.333% */
     }
     .faq_list{
-        color: aliceblue;
+        width: 90%;
+        margin: 0 auto;
+        color: #FFF;
+        font-family: Russo One;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 70px; /* 155.556% */
+        list-style-type: none;
+    }
+    .faq_list_question_1{
+        position: relative;
+        border-bottom: solid 2px #5B5858;
+    }
+    .faq_list_answer_1{
+        list-style-type: none;
+        display: none;
+    }
+    .faq_list_question_2{
+        position: relative;
+        border-bottom: solid 2px #5B5858;
+    }
+    .faq_list_answer_2{
+        list-style-type: none;
+        display: none;
+    }
+    .faq_list_question_3{
+        position: relative;
+        border-bottom: solid 2px #5B5858;
+    }
+    .faq_list_answer_3{
+        list-style-type: none;
+        display: none;
+    }
+    .faq_list_question_1 > a{
+        position: absolute;
+        right: 0;
+    }
+    .faq_list_question_2 > a{
+        position: absolute;
+        right: 0;
+    }
+    .faq_list_question_3 > a{
+        position: absolute;
+        right: 0;
+    }
+    .faq_button_wrap{
+        width: 90%;
+        margin: 25px auto;
+    }
+    .faq_button{
+        width: 348px;
+        height: 71px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #FFF;
+
+        color: #000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Russo One;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }
