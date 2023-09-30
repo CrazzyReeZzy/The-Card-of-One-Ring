@@ -1,5 +1,75 @@
 /* Desktop */
 
 @media (width >= 1230px) {
-    
+    .mechanics{
+        background: #000;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        
+    }
+    #img_mechanics_1{
+        display: none;
+    }
+    #img_mechanics_2{
+        display: none;
+    }
+    .mechanics > div > h2,.mechanics > h2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 10%;
+        color: #FFF;
+        text-align: left;
+        font-family: Russo One;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .mechanics > div > h3,.mechanics > h3 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 10%;
+        color: #FFF;
+        text-align: left;
+        font-family: Russo One;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .mechanics > div > h4{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 10%;
+        color: #FFF;
+        text-align: left;
+        font-family: Russo One;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .mechanics > div > p{
+        margin-left: 10%;
+        margin-right: 30%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #FFF;
+        font-family: Russo One;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 }
