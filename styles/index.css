@@ -18,6 +18,9 @@
 @import url('blocks/page/index.css');
 /* Blocks - Page game_info*/
 @import url('blocks/game_info.mechanics/index.css');
+/* Blocks - Page news*/
+@import url('blocks/news/index.css');
+
 
 /* Libraries */
 /* Slick_slider */

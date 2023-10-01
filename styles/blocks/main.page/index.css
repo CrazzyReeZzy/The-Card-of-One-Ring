@@ -14,7 +14,7 @@
     height: 100vh;
     width: 100%;
     background-image:linear-gradient(180deg, rgba(4, 4, 4, 0.05) 0%, #020202 75.65%, #000 100%),
-    url('../../../images/game_information/bg.png');
+    url('../../../images/news/bg.png');
     background-size: cover;
 }
 .main-page > h1, .game_information-page > h1{
@@ -37,6 +37,28 @@
     text-align: center;
     font-family: Russo One ;
     font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.news-page{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(180deg, rgba(4, 4, 4, 0.05) 0%, #020202 75.65%, #000 100%),
+    url('../../../images/game_information/bg.png');
+    background-size: cover;
+}
+.main-page > h1, .news-page > h1{
+    width: 70%;
+    margin: 150px auto;
+    margin-bottom: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Intro ;
+    font-size: 75px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
