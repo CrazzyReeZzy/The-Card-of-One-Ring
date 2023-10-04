@@ -20,6 +20,8 @@
 @import url('blocks/game_info.mechanics/index.css');
 /* Blocks - Page news*/
 @import url('blocks/news/index.css');
+/* Blocks - Page cards*/
+@import url('blocks/cards/index.css');
 
 
 /* Libraries */

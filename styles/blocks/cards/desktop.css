@@ -1,0 +1,54 @@
+/* Desktop */
+
+@media (width >= 1230px) {
+    .cards{
+        background: #000;
+    }
+    .cards_conteiner{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .cards_list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 25px;
+    }
+
+    .card_content{
+        display:  flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .card_content_img{}
+    .card_content_text{
+        width: 527px;
+        background-image: url("../../../images/cards/cards-notext.png");
+        background-repeat: no-repeat;
+        color: aliceblue;
+    }
+    .card_content_text__title{
+        padding: 25px 25px;
+        font-family: Intro ;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+    .card_content_text__description{
+        padding: 25px 25px;
+        font-family: Intro ;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .card_content_text__sub-description{
+        padding: 25px 25px;
+        font-family: Intro ;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
