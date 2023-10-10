@@ -22,8 +22,9 @@
     .card_content_img{}
     .card_content_text{
         width: 527px;
-        background-image: url("../../../images/cards/cards-notext.png");
+        background-image: url("../../../images/cards/cards-text1.png");
         background-repeat: no-repeat;
+        background-size: cover;
         color: aliceblue;
     }
     .card_content_text__title{

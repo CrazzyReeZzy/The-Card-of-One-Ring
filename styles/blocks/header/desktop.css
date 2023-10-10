@@ -1,5 +1,62 @@
 /* Desktop */
 
 @media (width >= 1230px) {
-    
+    /* header-page */
+    .header{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 3fr 0.5fr;
+
+    }
+    .header > nav {
+        display: flex;
+        align-items: end;
+        justify-content: start;
+        grid-column: 2;
+    }
+    .header__navigation{
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .header__navigation > li {
+        margin-right: 5%;
+    }
+    .header__navigation > li > a{
+        text-decoration: none;
+        color: #FFF;
+        font-family: Russo One;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .header__navigation > li > a:hover{
+        color: #F2B566;
+    }
+    .header__avatar > button[name='sing_up']{
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: transparent;
+        border: none;
+    }
+    .header__avatar > button[name='sing_out']{
+        display: none;
+    }
+    .header__avatar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .button-menu-mobile{
+        display: none;
+    }
+
 }
