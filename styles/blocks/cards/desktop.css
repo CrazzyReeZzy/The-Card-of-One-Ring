@@ -1,6 +1,15 @@
 /* Desktop */
 
 @media (width >= 1230px) {
+    .cards-page{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+        background-image:linear-gradient(180deg, rgba(4, 4, 4, 0.05) 0%, #020202 75.65%, #000 100%),
+        url('../../../images/cards/bg.png');
+        background-size: cover;
+    }
     .cards{
         background: #000;
     }

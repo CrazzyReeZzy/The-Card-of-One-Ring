@@ -17,6 +17,7 @@
 @import url('blocks/header/index.css');
 @import url('blocks/page/index.css');
 /* Blocks - Page game_info*/
+@import url('blocks/game_info.page/index.css');
 @import url('blocks/game_info.mechanics/index.css');
 /* Blocks - Page news*/
 @import url('blocks/news/index.css');
