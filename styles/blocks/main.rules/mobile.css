@@ -1,5 +1,16 @@
 /* Mobile */
 
 @media (width < 1230px) {
-
+    .rules{
+        width: 100%;
+        height: 100%;
+    }
+    .slaider{
+        width: 100%;
+        height: 40vh;
+    }
+    .slaider > img {
+        width: 100%;
+        height: 40vh;
+    }
 }

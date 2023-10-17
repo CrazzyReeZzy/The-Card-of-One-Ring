@@ -22,19 +22,6 @@
         font-weight: 400;
         line-height: normal;
     }  
-    .main-page > h1{
-        width: 70%;
-        margin: 150px auto;
-        margin-bottom: 0px;
-        color: #FFF;
-        text-align: center;
-        font-family: Intro ;
-        font-size: 75px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
     .main-page > a{
         margin: 65px auto;
         display: flex;
